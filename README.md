@@ -33,7 +33,7 @@ To use this template, choose one of the following options to get started:
     $ npm install webpack --save-dev #You can do -g to install in global mode
 
 ## Developing
-To develop inside the project(```cd GenericFrontEnd```), simply run the  commands below to start the dev server and run the bundler in watch mode:
+To develop inside the project(```cd GenericFrontEnd```), simply run the  commands below to install the dev server, project dependencies and run the bundler in watch mode:
 
     $ npm install -g http-server #to install the http-server for development
     $ npm install #to install the project dependencies
@@ -64,7 +64,7 @@ Bonus! Package and deploy to [Wildfly](http://wildfly.org/) application server (
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/secondtruth/startmin/issues) here on GitHub.
 
-One known bug is with the angular-websocket module where it includes 'ws' module. The issue is documented [here](https://github.com/AngularClass/angular-websocket/issues/82). A simple solution is to remove the 'ws' dependency in the file angular-websocket/dist/angular-websocket.js like so
+One known bug is with the angular-websocket module where it includes 'ws' module. The issue is documented [here](https://github.com/AngularClass/angular-websocket/issues/82). A simple solution is to remove the 'ws' dependency in the file node_modules/angular-websocket/dist/angular-websocket.js like so
 
     $ define(['module', 'exports', 'angular'/*, 'ws'*/], factory);
 
