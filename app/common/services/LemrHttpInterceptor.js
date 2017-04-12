@@ -10,7 +10,7 @@ angular.module('app').factory('LemrHttpInterceptor', function ($q, $window, $roo
 
             //add authentication headers
             config.headers = config.headers || {};
-            if ($window.localStorage.Ezen_token) {
+            if ($window.localStorage.GF_token) {
                 config.headers.token = $window.localStorage.Ezen_token;
             }else{
                 console.info('Token not found!');

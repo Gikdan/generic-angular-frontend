@@ -1,5 +1,5 @@
 angular.module('app').factory('Entity', function ($resource) {
-        var __apiBase__ = 'http://localhost:8080/ezen/';
+        var __apiBase__ = 'http://localhost:8080/GenericBackend/';
         return {
             Model : $resource(__apiBase__ + 'api/models/fqns'),
             User : $resource(__apiBase__ + 'api/users/:id', {id: '@id', profileId :'@profileId'},{

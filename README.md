@@ -62,7 +62,7 @@ Bonus! Package and deploy to [Wildfly](http://wildfly.org/) application server (
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/secondtruth/startmin/issues) here on GitHub.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/kodero/generic-angular-frontend/issues) here on GitHub.
 
 One known bug is with the angular-websocket module where it includes 'ws' module. The issue is documented [here](https://github.com/AngularClass/angular-websocket/issues/82). A simple solution is to remove the 'ws' dependency in the file node_modules/angular-websocket/dist/angular-websocket.js like so
 

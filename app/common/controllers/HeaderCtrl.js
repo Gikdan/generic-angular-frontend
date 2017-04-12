@@ -8,7 +8,7 @@ angular.module('app').controller('HeaderCtrl', function ($rootScope, $window, $s
          console.log('Logging out..');
          Entity['Authentication'].logout({}, function(){
             UserService.isLoggedIn = false;
-            $window.localStorage.Ezen_token = undefined;
+            $window.localStorage.GF_token = undefined;
             $alert({
                 title: 'Success!',
                 content: 'You have logged out of Ezen, you now be redirected to the login page in 3 seconds.',
