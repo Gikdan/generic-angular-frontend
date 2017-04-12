@@ -30,16 +30,22 @@ To use this template, choose one of the following options to get started:
 
 [Install Webpack 2.x](https://webpack.js.org/guides/installation/) if you don't already have it present on your system:
 
-    $ npm install webpack --save-dev
+    $ npm install webpack --save-dev #You can do -g to install in global mode
 
 ## Developing
-To develop inside the project, simply run the two commands below to start the dev server and run the bundler in watch mode:
+To develop inside the project(```cd GenericFrontEnd```), simply run the  commands below to start the dev server and run the bundler in watch mode:
 
-    $ npm start
-
-and on another terminal, run 
-
+    $ npm install -g http-server #to install the http-server for development
+    $ npm install #to install the project dependencies
     $ npm run bundle 
+
+That runs the webpack bundler and creates application binary files inside dist folder.
+
+On another terminal, run 
+
+    $ npm start 
+
+and navigate to [localhost:8000](localhost:8000) to see the application running locally.
 
 ## Production build
 To perform production builds, run the any of the below commands
