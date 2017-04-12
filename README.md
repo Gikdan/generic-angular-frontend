@@ -1,4 +1,4 @@
-# Startmin
+# Generic Angular Webpack seed frontend
 
 **Generic Frontend** is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) originally created by [Start Bootstrap](http://startbootstrap.com/).
 
